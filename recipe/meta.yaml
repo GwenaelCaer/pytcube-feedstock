@@ -22,11 +22,11 @@ requirements:
     - hatchling
   run:
     - python >={{ python_min }}
-    - dask
+    - dask >=2024.6
     - fast-vindex >=0.0.2
-    - pandas
-    - numpy
-    - xarray
+    - pandas >=2.2
+    - numpy >=1.26
+    - xarray >=2024.10.0
     
 test:
   imports:
