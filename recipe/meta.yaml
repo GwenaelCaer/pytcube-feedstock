@@ -1,5 +1,5 @@
 {% set name = "pytcube" %}
-{% set version = "0.0.3a2" %}
+{% set version = "0.0.3a3" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://gitlab.ifremer.fr/odatis-public/{{ name }}/-/archive/{{ version }}/{{ name }}-{{version}}.tar.gz
-  sha256: 96ca9708511b1dcc96b32e0cf04f590e5cc69a671747572410d2a0fca0d1d11b 
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: a1f20e9c5c37a3cf34386a4abb81ff27296e200757c84d9c8b1941def0d074d4
 
 build:
   noarch: python
