@@ -23,7 +23,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - dask >=2024.6
-    - fast-vindex >=0.0.2
+    - fast_vindex >=0.0.2
     - numpy >=1.26
     - pandas >=2.2
     - xarray >=2024.10.0
